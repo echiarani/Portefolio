@@ -8,6 +8,8 @@
   font-weight: 600;
   text-align: center;
   color: $header-color;
+  position: fixed;
+  top: 0;
 
   .nav {
     &-list-item {

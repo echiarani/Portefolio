@@ -16,7 +16,7 @@ import './contact.scss';
  */
 const Contact = () => (
   <div id="contact">
-    Hello World !
+    Contact
   </div>
 );
 

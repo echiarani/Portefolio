@@ -9,18 +9,18 @@ import React from 'react';
 // Components
 
 // Styles
-import './projects.scss';
+import './home.scss';
 
 /**
  * Code
  */
-const Projects = () => (
-  <div id="projects">
-    Projects
+const Home = () => (
+  <div id="home">
+    Home
   </div>
 );
 
 /**
  * Export
  */
-export default Projects;
+export default Home;

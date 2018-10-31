@@ -16,7 +16,7 @@ import './profile.scss';
  */
 const Profile = () => (
   <div id="profile">
-    Hello World !
+    Profile
   </div>
 );
 

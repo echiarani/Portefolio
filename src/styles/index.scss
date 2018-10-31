@@ -1,5 +1,6 @@
 @import 'reset';
+@import 'vars';
 
 body {
-  background-color: #eaeaea;
+  background-color: $body-bg-color;
 }
