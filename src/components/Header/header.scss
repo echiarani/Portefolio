@@ -1,0 +1,28 @@
+@import 'src/styles/vars';
+
+#header {
+  background-color: $header-bg-color;
+  width: 25%;
+  height: 100vh;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  color: $header-color;
+
+  .nav {
+    &-list-item {
+      padding: .3em;
+    }
+  }
+
+  #presentation {
+    &-title {
+      padding: .5em;
+      font-size: 1.5em;
+    }
+    &-picture {
+      border-radius: 50%;
+      margin: 1em auto;
+    }
+  }
+}

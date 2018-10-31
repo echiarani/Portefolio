@@ -7,21 +7,20 @@ import React from 'react';
  * Local import
  */
 // Components
-import Header from 'src/components/Header';
 
 // Styles
-import './app.scss';
+import './projects.scss';
 
 /**
  * Code
  */
-const App = () => (
-  <div id="app">
-    <Header />
+const Projects = () => (
+  <div id="projects">
+    Hello World !
   </div>
 );
 
 /**
  * Export
  */
-export default App;
+export default Projects;
