@@ -1,0 +1,27 @@
+@import 'src/styles/vars';
+
+.profile {
+  &-div {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &-article {
+    &-subtitle {
+      margin-bottom: .5em;
+    }
+
+    &-progress {
+      background-color: #fff;
+      width: 15em;
+      border-radius: 5px;
+      color: white;
+
+      &-level {
+        width: 50%;
+        background-color: $header-bg-color;
+      }
+    }
+  }
+}

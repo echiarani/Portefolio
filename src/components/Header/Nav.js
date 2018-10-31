@@ -2,7 +2,7 @@
  * NPM import
  */
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 /**
  * Local import
@@ -18,10 +18,10 @@ import './header.scss';
 const Nav = () => (
   <div className="nav">
     <ul className="nav-list">
-      <li className="nav-list-item"><Link to="/">Home</Link></li>
-      <li className="nav-list-item"><Link to="/skills">Technical skills</Link></li>
-      <li className="nav-list-item"><Link to="/projects">Projects</Link></li>
-      <li className="nav-list-item"><Link to="/contact">Contact</Link></li>
+      <li className="nav-list-item"><NavLink activeClassName="nav-list-item-active" exact to="/">Home</NavLink></li>
+      <li className="nav-list-item"><NavLink activeClassName="nav-list-item-active" exact to="/skills">Technical skills</NavLink></li>
+      <li className="nav-list-item"><NavLink activeClassName="nav-list-item-active" exact to="/projects">Projects</NavLink></li>
+      <li className="nav-list-item"><NavLink activeClassName="nav-list-item-active" exact to="/contact">Contact</NavLink></li>
     </ul>
   </div>
 );
