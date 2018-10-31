@@ -15,9 +15,9 @@ import './profile.scss';
  * Code
  */
 const Profile = () => (
-  <div id="profile">
+  <section id="profile">
     Profile
-  </div>
+  </section>
 );
 
 /**

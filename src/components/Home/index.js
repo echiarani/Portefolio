@@ -15,9 +15,9 @@ import './home.scss';
  * Code
  */
 const Home = () => (
-  <div id="home">
+  <section id="home">
     Home
-  </div>
+  </section>
 );
 
 /**

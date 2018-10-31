@@ -18,11 +18,11 @@ import './header.scss';
  * Code
  */
 const Header = () => (
-  <div id="header">
+  <header id="header">
     <Presentation />
     <Nav />
     <Info />
-  </div>
+  </header>
 );
 
 /**

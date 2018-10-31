@@ -15,9 +15,9 @@ import './contact.scss';
  * Code
  */
 const Contact = () => (
-  <div id="contact">
+  <section id="contact">
     Contact
-  </div>
+  </section>
 );
 
 /**

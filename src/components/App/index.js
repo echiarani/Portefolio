@@ -23,10 +23,12 @@ import './app.scss';
 const App = () => (
   <div id="app">
     <Header />
-    <Route path="/" exact render={() => <Home />} />
-    <Route path="/skills" exact render={() => <Profile />} />
-    <Route path="/projects" exact render={() => <Projects />} />
-    <Route path="/contact" exact render={() => <Contact />} />
+    <div id="main">
+      <Route path="/" exact render={() => <Home />} />
+      <Route path="/skills" exact render={() => <Profile />} />
+      <Route path="/projects" exact render={() => <Projects />} />
+      <Route path="/contact" exact render={() => <Contact />} />
+    </div>
   </div>
 );
 
