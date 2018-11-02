@@ -24,6 +24,7 @@
   }
 
   .nav {
+    margin-bottom: 2em;
     &-list-item {
       padding: .3em;
 
@@ -47,6 +48,16 @@
     &-picture {
       border-radius: 50%;
       margin: 1em auto;
+    }
+  }
+
+  #info {
+    &-linkedin {
+      font-size: 1.5em;
+
+      &:hover {
+        color: lighten($header-bg-color, 30%);
+      }
     }
   }
 }

@@ -2,6 +2,7 @@
  * NPM import
  */
 import React from 'react';
+import { FaLinkedin } from 'react-icons/fa';
 
 /**
  * Local import
@@ -16,7 +17,7 @@ import './header.scss';
  */
 const Info = () => (
   <div id="info">
-
+    <a id="info-linkedin" href="https://www.linkedin.com/in/elodiechiarani/"><FaLinkedin /></a>
   </div>
 );
 
