@@ -21,6 +21,7 @@ const Header = () => (
   <header id="header">
     <Presentation />
     <Nav />
+    <div id="header-bg" />
     <Info />
   </header>
 );

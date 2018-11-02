@@ -1,7 +1,7 @@
 @import 'src/styles/vars';
 
 #header {
-  background-color: $header-bg-color;
+  // background-color: $header-bg-color;
   width: 25%;
   height: 100vh;
   text-transform: uppercase;
@@ -10,6 +10,18 @@
   color: $header-color;
   position: fixed;
   top: 0;
+  z-index: 10;
+
+  &-bg {
+    transform: rotate(10deg);
+    background-color: $header-bg-color;
+    width: 30%;
+    height: 150vh;
+    position: fixed;
+    bottom: -2em;
+    left: -2em;
+    z-index: -10;
+  }
 
   .nav {
     &-list-item {
