@@ -7,6 +7,7 @@ import React from 'react';
  * Local import
  */
 // Components
+import Project from './Project';
 
 // Styles
 import './projects.scss';
@@ -16,7 +17,7 @@ import './projects.scss';
  */
 const Projects = () => (
   <section id="projects">
-    Projects
+    <Project />
   </section>
 );
 
